@@ -22,3 +22,5 @@ export async function DeleteMovies(id) {
 export async function getMovies() {
     return await client.db('bookmyshow').collection('movies').find().toArray();
 }
+
+//hi
